@@ -400,6 +400,26 @@ body.light-theme{
     font-size: var(--font-size-md);
 }
 /* featured articles - Sidebar */
+.sidebar{
+    background-color: var(--secondary-background-color);
+    padding: 2.5rem;
+}
+
+.trending-news-box{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    padding-block: 2rem;
+    border: 1px solid --transparent-light-color;
+}
+
+.trending-news-box:last-of-type{
+    border-bottom: none;
+}
+
+.trending-news-image-box{
+    position: relative;
+}
 /* Quick read */
 /* Quick read - Swiper */
 /* Older posts */
