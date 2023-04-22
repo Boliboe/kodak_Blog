@@ -357,6 +357,10 @@ body.light-theme{
     text-transform: uppercase;
     z-index: 10;
 }
+
+.article-data-container{
+    
+}
 /* featured articles - Sidebar */
 /* Quick read */
 /* Quick read - Swiper */
