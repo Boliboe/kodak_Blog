@@ -367,7 +367,6 @@ body.light-theme{
     z-index: 10;
     width: 100%;
     transition: background-color .5s;
-    border: 1px solid blue;
 }
 
 .article:hover .article-data-container{
@@ -471,7 +470,7 @@ body.light-theme{
 }
 
 .article.swiper-slide{
-    height: 0rem;
+    height: 40rem;
 }
 
 /* Quick read - Swiper */
@@ -494,14 +493,55 @@ body.light-theme{
 }
 
 .swiper-pagination{
-    bottom: .5rem !important;
-    background-color: var(--light-color);
+    bottom: .5rem !important; 
 }
 
 .swiper-pagination-bullet{
     background-color: var(--light-color);
 }
+
 /* Older posts */
+.older-posts-grid-wrapper{
+    gap: var(--gap);
+}
+
+.older-posts-article-image-wrapper,
+.older-posts .article{
+    min-height: var(--items-min-height-sm);
+}
+
+.older-posts .article{
+    background-color: var(--secondary-background-color);
+}
+
+.older-posts-article-image-wrapper{
+    position: relative;
+}
+
+.older-posts-grid-wrapper .article-data-container{
+    position: static;
+    background: transparent;
+}
+
+.older-posts-grid-wrapper .article-title{
+    margin-bottom: var(--margin-sm);
+}
+
+.see-more-container{
+    margin-top: var(--margin-md);
+}
+
+.see-more-btn{
+    text-transform: uppercase;
+}
+
+.see-more-btn i{
+    transition: transform .25s;
+}
+
+.see-more-btn:hover i{
+    transform: translateX(.5rem);
+}
 /* Popular tags */
 /* Newsletter */
 /* Footer */
