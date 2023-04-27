@@ -625,7 +625,7 @@ body.light-theme{
 
 /* Scrollbar styles */
 ::-webkit-scrollbar{
-    width: 1.5rem;
+    width: 1rem;
 }
 
 ::-webkit-scrollbar-track{
