@@ -783,4 +783,16 @@ body.light-theme{
         grid-column: 1/-1;
         grid-row: 4/6;
     }
+
+    .older-posts .article{
+        grid-template-columns: 25rem 1fr;
+    }
+
+    .older-posts-article-image-wrapper{
+        height: auto;
+    }
+
+    .blog-post-data img{
+        height: var(--item-min-height-md);
+    }
 }
