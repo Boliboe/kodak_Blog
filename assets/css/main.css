@@ -822,4 +822,14 @@ body.light-theme{
         .sign-up-btn{
             padding: .4rem;
         }
+
+        .btn.fancy-border:hover::before{
+            animation: animate_border .75s linear infinite;
+        }
+
+        @keyframes animate_border {
+            to{
+                transform: translateX(-50%);
+            }
+        }
     }
