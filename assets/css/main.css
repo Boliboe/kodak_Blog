@@ -595,6 +595,10 @@ body.light-theme{
     order: 1;
 }
 
+.footer-span-1{
+    display: inline-flex;
+}
+
 .company-description{
     margin-block: var(--margin-sm);
     max-width: 75%;
