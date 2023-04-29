@@ -130,7 +130,6 @@ body.light-theme{
 .logo{
     font-size: var(--font-size-md);
     color: var(--light-color);
-    border: 1px solid red;
 }
 
 .menu{
